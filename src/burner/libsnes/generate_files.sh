@@ -1,11 +1,11 @@
 #!/bin/bash
 
-if [ -f ../src/generated/driverlist.h ]; then
+if [ -f ../../generated/driverlist.h ]; then
    echo "Generated files already built ..."
    exit 0
 fi
 
-cd ../src
+cd ../..
 mkdir -p generated
 
 #generate gamelist.txt and generated/driverlist.h
