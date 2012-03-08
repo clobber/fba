@@ -42,7 +42,9 @@ typedef struct tagIMAGE {
  #include "burner_xbox.h"
 #endif
 
+#if !defined (__LIBSNES__)
 #include "png.h"
+#endif
 
 // ---------------------------------------------------------------------------
 // OS independent functionality
